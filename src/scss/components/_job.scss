@@ -1,0 +1,21 @@
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 111rem;
+  height: 15.2rem;
+  padding: 3.2rem 4rem;
+  margin-bottom: 2.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.5rem 2rem -0.5rem rgba(13, 113, 130, 0.15);
+  background-color: #ffffff;
+
+  @media (max-width: 1120px) {
+    flex-direction: column;
+    width: 32.7rem;
+    height: 25.7rem;
+    padding: 2.4rem;
+    margin-bottom: 4rem;
+  }
+}
