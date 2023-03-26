@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as var;
+
 .job {
   display: flex;
   justify-content: space-between;
@@ -18,4 +20,8 @@
     padding: 2.4rem;
     margin-bottom: 4rem;
   }
+}
+
+.job-featured {
+  border-left: 5px solid var.$desaturated-dark-cyan;
 }

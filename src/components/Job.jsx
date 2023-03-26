@@ -5,7 +5,7 @@ import Requirements from "./Requirements";
 
 const Job = (props) => {
   return (
-    <div className="job">
+    <div className={props.featured ? "job job-featured" : "job"}>
       <Logo {...props} />
       <Details {...props} />
       <Requirements {...props} />
