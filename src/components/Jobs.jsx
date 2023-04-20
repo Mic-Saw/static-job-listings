@@ -7,7 +7,7 @@ const Jobs = (props) => {
 
   return (
     <div className="jobs">
-      {jobs.map((job) => (
+      {jobs?.map((job) => (
         <Job
           key={job.id}
           company={job.company}

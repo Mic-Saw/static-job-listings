@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import Details from "./Details";
 import Requirements from "./Requirements";
 
-const Job = (props) => {
+const Job = (props, { addToFilter }) => {
   return (
     <div className={props.featured ? "job job-featured" : "job"}>
       <Logo {...props} />
